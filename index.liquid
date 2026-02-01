@@ -1,11 +1,12 @@
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+---
+layout: layout.liquid
+title: 11ty Boilerplate
+---
 
-<main x-data="nameGenerator">
-
- <main x-data="nameGenerator">
+<main x-data="nameGenerator()">
   <h1 x-text="currentName"></h1>
-  <button type="button" @click="generate()">Generate Random Name</button>
-</main>
 
+  <button type="button" @click="generate()">
+    Generate Random Name
+  </button>
 </main>

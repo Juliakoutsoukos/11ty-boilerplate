@@ -4,9 +4,9 @@ export const names = [
   "Anna Paul",
   "Cece Nguyen",
   "Maddi Saber",
-  "Aiden Prince",
-  "Dani Miles",
-  "Derek Rose",
   "Charlotte Smith",
-  "Llana Thach"
+  "Llana Thach",
+  "Adrian Bailey",
+  "Bella Jones",
+  "Ella Davis"
 ];
